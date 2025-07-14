@@ -9,10 +9,15 @@
 * Keep UI code minimal and functional
 
 ## To Build
-`docker build -t taskmanager-ui .`
+To build the application we can use either of the below commands:
+* Using Dockerfile: `docker build -t taskmanager-ui .`
+* Using compose: `docker-compose build`
 
 ## To Run
-`docker run -p 3000:3000 taskmanager-ui`
+To run the application we can use either of the below commands:
+* Using Dockerfile: `docker run -p 3000:3000 taskmanager-ui`
+* Using compose: `docker-compose up -d`
 
 ## View
-Navigate to `localhost:3000` in your browser (NOTE: taskmanager backend application needs to be running first)
+Navigate to `localhost:3000` in your browser (NOTE: taskmanager backend application needs to be running first).
+All CRUD functionality should work as expected, and there should initially be 2 records already pre-populated on the UI.
