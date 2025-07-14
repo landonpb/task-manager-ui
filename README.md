@@ -13,3 +13,6 @@
 
 ## To Run
 `docker run -p 3000:3000 taskmanager-ui`
+
+## View
+Navigate to `localhost:3000` in your browser (NOTE: taskmanager backend application needs to be running first)
